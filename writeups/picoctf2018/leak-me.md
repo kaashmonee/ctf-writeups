@@ -10,6 +10,9 @@ We are given a prompt where we are to enter our name and some "password" that it
 Now, into the source.
 The first `flag()` function doesn't seem like it does much, other than check that the problem is correctly set up. It's more for the problem writers than it is for us.
 
-Let's move onto main. In `main`, we see roughly that 
+Let's move onto main. In `main`, we see three char arrays that we should probably pay attention to: `password`, `name`, and `password_input`. These are going to be useful going forward.
+Then, it uses `fgets`, the safe version of `gets` to read things into each buffer. So far so good, right? At first I had difficult determining where the bug was because I thought it was using all safe `C` functions. Then it `strcat`s the "Please enter password" string after the name.
+
+(TBC)
 
 
