@@ -1,3 +1,5 @@
+// SIGN UP FOR PICOCTF 2018: https://2018game.picoctf.com/problems
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
